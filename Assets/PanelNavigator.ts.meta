@@ -26,12 +26,12 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    changeColorPanel: false
     changeSizePanel: false
     colorPickerController: false
     nextButton: false
     nextButton2: false
     spawnShapePanel: false
-    thirdPanel: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -43,7 +43,7 @@
   DefaultScriptInputs:
     - spawnShapePanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       changeSizePanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      thirdPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      changeColorPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       nextButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
       nextButton2: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
       colorPickerController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
@@ -53,7 +53,7 @@
   InputLines:
     - // @input SceneObject spawnShapePanel
     - // @input SceneObject changeSizePanel
-    - // @input SceneObject thirdPanel
+    - // @input SceneObject changeColorPanel
     - // @input AssignableType nextButton
     - // @input AssignableType_1 nextButton2
     - // @input AssignableType_2 colorPickerController
